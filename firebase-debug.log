@@ -1,13 +1,13 @@
-[debug] [2021-05-30T16:09:24.766Z] ----------------------------------------------------------------------
-[debug] [2021-05-30T16:09:24.824Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MD SAH AZIZ (RAKIB)\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-05-30T16:09:24.825Z] CLI Version:   9.12.0
-[debug] [2021-05-30T16:09:24.826Z] Platform:      win32
-[debug] [2021-05-30T16:09:24.826Z] Node Version:  v14.15.0
-[debug] [2021-05-30T16:09:25.455Z] Time:          Sun May 30 2021 22:09:24 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-05-30T16:09:25.455Z] ----------------------------------------------------------------------
+[debug] [2021-06-21T10:41:13.538Z] ----------------------------------------------------------------------
+[debug] [2021-06-21T10:41:13.548Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\MD SAH AZIZ (RAKIB)\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-21T10:41:13.550Z] CLI Version:   9.13.1
+[debug] [2021-06-21T10:41:13.551Z] Platform:      win32
+[debug] [2021-06-21T10:41:13.551Z] Node Version:  v14.15.0
+[debug] [2021-06-21T10:41:13.634Z] Time:          Mon Jun 21 2021 16:41:13 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-06-21T10:41:13.635Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-05-30T16:09:25.536Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-05-30T16:09:25.536Z] > authorizing via signed-in user (alldesign813@gmail.com)
+[debug] [2021-06-21T10:41:13.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-21T10:41:13.674Z] > authorizing via signed-in user (alldesign813@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -17,10 +17,10 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  C:\web development with jhonkar mahbub\scic-team-work\gadget-fix-client
+  C:\web development with jhonkar mahbub\projects\gadgetFix-client-main
 
 Before we get started, keep in mind:
 
   * You are currently outside your home directory
-  * You are initializing in an existing Firebase project directory
+  * You are initializing within an existing Firebase project directory
 

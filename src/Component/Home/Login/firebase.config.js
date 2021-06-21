@@ -1,10 +1,9 @@
- const firebaseConfig = {
-    apiKey: "AIzaSyCQFMgBcCGNwbStaCKB8XrelLK0ZKVCOPI",
-    authDomain: "gadget-fix-23e64.firebaseapp.com",
-    projectId: "gadget-fix-23e64",
-    storageBucket: "gadget-fix-23e64.appspot.com",
-    messagingSenderId: "988974696726",
-    appId: "1:988974696726:web:f2c8145da8d1507b546837"
-  };
-  // Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyDSMacmC4BXkzYRNhPsuNynQnG8jPPG8iw",
+  authDomain: "gadgetfixx-8fb21.firebaseapp.com",
+  projectId: "gadgetfixx-8fb21",
+  storageBucket: "gadgetfixx-8fb21.appspot.com",
+  messagingSenderId: "208226814880",
+  appId: "1:208226814880:web:ea1457aa9166b7da6cf2c5"
+};
 export default firebaseConfig;
