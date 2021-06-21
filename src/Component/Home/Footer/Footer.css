@@ -1,0 +1,13 @@
+.main-footer {
+    color: white;
+    background-color: #04062C;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .icon{
+    display: flex;
+    gap: 1em;
+  }
+  
