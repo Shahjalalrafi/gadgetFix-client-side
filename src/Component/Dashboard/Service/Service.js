@@ -5,7 +5,7 @@ const Service = () => {
     const [allService, setAllService] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5050/service')
+        fetch('https://secure-tundra-37871.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setAllService(data))
     }, [])
@@ -27,8 +27,8 @@ const Service = () => {
                                 <th className='py-2'>garenty</th>
                             </tr>
                             {
-                                allService.map(service => <tr className="table-data">
-                                    <td>{service.name}</td>
+                                allService.map(service => <tr style={{background: 'black', color: 'white'}} className="table-data">
+                                    <td style={{ padding: '15px', borderBottom: '2px solid red'}}>{service.name}</td>
                                     <td>{service.price}</td>
                                     <td>{service.garanty}</td>
                                 </tr>)

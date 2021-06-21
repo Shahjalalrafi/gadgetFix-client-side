@@ -5,7 +5,7 @@ const BookedList = () => {
     const [booking, setBooking] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5050/serviceRequest')
+        fetch('https://secure-tundra-37871.herokuapp.com/serviceRequest')
             .then(res => res.json())
             .then(data => setBooking(data))
     }, [])
@@ -25,10 +25,10 @@ const BookedList = () => {
                                 <th className='py-2'>email</th>
                                 <th className='py-2'>price</th>
                                 <th className='py-2'>number</th>
-                            </tr>
+                            </tr >
                             {
-                                booking.map(book => <tr className="table-data">
-                                    <td>{book.name}</td>
+                                booking.map(book => <tr style={{background: 'black', color: 'white'}} className="table-data">
+                                    <td style={{ padding: '15px', margin: '3px'}}>{book.name}</td>
                                     <td>{book.email}</td>
                                     <td>{book.price}</td>
                                     <td>{book.number}</td>

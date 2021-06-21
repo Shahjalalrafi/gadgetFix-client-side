@@ -19,7 +19,7 @@ const ServiceDetails = () => {
             number: data.number
         };
 
-        const url = 'http://localhost:5050/bookedService';
+        const url = 'https://secure-tundra-37871.herokuapp.com/bookedService';
         console.log(serviceData);
         fetch(url, {
             method: 'POST',
@@ -39,7 +39,7 @@ const ServiceDetails = () => {
     const [Service, setService] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5050/service')
+        fetch('https://secure-tundra-37871.herokuapp.com/service')
             .then(res => res.json())
             .then(result => {
                 const myService = result.find(pd => {

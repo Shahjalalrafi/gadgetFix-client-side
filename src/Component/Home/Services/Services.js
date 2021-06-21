@@ -9,7 +9,7 @@ const Services = () => {
     const dispatch = useDispatch()
 
     const fetchService = async () => {
-        fetch('http://localhost:5050/service')
+        fetch('https://secure-tundra-37871.herokuapp.com/service')
         .then(res => res.json())
         .then(data => {
             dispatch(SetService(data))
@@ -24,7 +24,7 @@ const Services = () => {
     // const [allService, setAllService] = useState([])
 
     // useEffect(() => {
-    //     fetch('http://localhost:5050/service')
+    //     fetch('https://secure-tundra-37871.herokuapp.com/service')
     //         .then(res => res.json())
     //         .then(data => setAllService(data))
     // }, [])
